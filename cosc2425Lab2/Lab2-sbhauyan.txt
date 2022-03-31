@@ -1,0 +1,249 @@
+Shafiur Rahman Bhauyan
+LabAssignment-2
+
+
+package cosc2425Lab2asg2;
+
+public class Lab2Prt1 {
+
+	public static void main(String[] args) {
+		System.out.println("Howdy");
+		
+		// here the print statement should be after the class main, and there should be " " double quotation sign to print something 
+
+	}
+
+}
+
+console1
+Howdy
+
+
+
+
+problem-2
+
+// this is program which will only print a general statement for the program which will print the line "I like the program" 
+// here we will only use the System.out.println statement to print that line, nothing else
+
+package cosc2425Lab2asg2;
+
+public class Lab2Prt2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("I like the program");  
+		
+
+	}
+
+}
+
+console-2
+I like the program
+
+
+
+
+problem-3
+
+// here in this program the name of the class is Lab2Prt3, here we will use the build in String class to assign the names in first_name and last_name variable
+// and will align then together by using (+)
+
+package cosc2425Lab2asg2;
+
+public class Lab2Prt3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String first_name = "James";
+		String last_name = "Gosling";
+		System.out.println(last_name + "," + first_name);
+		
+	}
+
+}
+
+
+console-3
+Gosling,James
+
+
+
+problem-4
+
+// in this program we are declaring a int variable. So at first we need to declare the variable name first by using the (int drivingAge;) method
+// then in the next line we will assign 15 to the variable drivingAge
+// in the next line we will print the given statement in the question along with the age by + sign 
+
+package cosc2425Lab2asg2;
+
+public class Lab2Prt4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int drivingAge;
+		drivingAge = 15;
+		System.out.println("The driver's age provided is: "+ drivingAge );
+
+	}
+
+}
+
+
+
+console-4
+The driver's age provided is: 15
+
+
+
+
+problem-5
+
+// here since we have to print a string variable's value assigned to it in a sentence, we need to assign the the value within double quotation
+// like this myName = "15", so in the print statement the valu will be printed but it will remain in the string form
+package cosc2425Lab2asg2;
+
+public class Lab2Prt5 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String myName;
+		 myName = "15";
+		 System.out.println("The name assigned to the variable myName is: " + myName);
+	}
+
+}
+
+
+console5
+The name assigned to the variable myName is: 15
+
+
+
+problem-6
+
+// here in this program we are declaring two variables one in an int variable and another is double variable 
+// then we formatted the print statement with a comma between the two variables and assigned a newline character at the end in quotation
+// this newline character will help to print the next line after a newline
+package cosc2425Lab2asg2;
+
+public class Lab2Prt6 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int num = 23;
+		double cost = 57.65;
+		System.out.println(num + "," + cost + "\n");
+		System.out.println("Yes, I included the newline character");
+
+	}
+
+}
+
+
+console-6
+23,57.65
+
+Yes, I included the newline character
+
+
+
+
+
+problem-7
+
+package cosc2425Lab2asg2;
+
+public class Lab2Prt7 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		boolean isACustomer = true; 
+		
+		// here the variable isCuatomer is a boolean value and it is assigned true
+		
+		boolean loyaltyProgram = false; 
+		
+		// here the variable loyaltyProgram is a boolean value and it is assigned false 
+		System.out.println("Is the person a customer? :" + isACustomer); 
+		System.out.println("Is the person in the Loyalty Program?: " + loyaltyProgram);
+
+	}
+
+}
+
+console-7
+Is the person a customer? :true
+Is the person in the Loyalty Program?: false
+
+
+
+
+
+problem-8
+
+package cosc2425Lab2asg2;
+
+public class Lab2Prt8 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int num = 23;
+		double cost= 57.65;
+		double unitPrice;
+		unitPrice = cost/num;
+		
+		// here we are dividing the total cost by the total number of items in order to get the unit cost of that item
+		// here we also assigned the unitPrice variable as double since a division of double number by int number will generate another double
+		
+		System.out.println("Given the number of units: " + num);
+		System.out.println("value of cost: " + cost);
+		System.out.println("value of unit price: " + unitPrice); 
+		
+	}
+
+}
+
+console-8
+Given the number of units: 23
+value of cost: 57.65
+value of unit price: 2.506521739130435
+
+
+
+
+problem-9
+package cosc2425Lab2asg2;
+
+public class Lab2Prt9 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double width1 = 12.43;
+		double width2 = 30.62;
+		double length1 = 7.99;
+		double length2 = 41.51;
+		double area1 = width1*length1;
+		double area2 = width2*length2;
+		
+		// here I calculated the areas of two rectangles by declaring a double variable for each of the area since
+		// the width and length of each of the rectangle was in double
+		
+		System.out.println("Given the width and length of room1 as: " + width1 + ", " + length1);
+		System.out.println("Given the width and length of room2 as: " + width2 + ", " + length2);
+		System.out.println( "the total floor-space area calculates to: " + (area1 + area2));
+		
+		// here in this print statement we just used the (+) operator to add the two areas which we found earlier because (+) operator 
+		// adds any two or more  numeric variable as int, double, float etc
+
+
+	}
+
+}
+
+
+console-9
+Given the width and length of room1 as: 12.43, 7.99
+Given the width and length of room2 as: 30.62, 41.51
+the total floor-space area calculates to: 1370.3519000000001

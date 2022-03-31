@@ -1,0 +1,19 @@
+1)	Open the phone
+2)	Search for the food app in mobile
+3)	Enter into the app
+4)	Go to the search bar
+5)	Search for the Torchy’s Taco in the search bar
+6)	Enter into the menu of Torchy’s Taco
+7)	Select a tortilla type
+8)	Select the filling of the taco
+9)	Select the sauce type
+10)	Select the salad dressing
+11)	Confirm order by clicking on the confirm option
+12)	Enter the address in the address section and click confirm
+13)	Select pay now
+14)	Select the payment option
+15)	Select card option
+16)	Enter the password
+17)	Click on the end menu and return to the home page
+18)	Return to the main screen from the app
+19)	Close the mobile
